@@ -5,3 +5,13 @@ const sayHello = function (name) {
 sayHello('Caliban');
 sayHello('Miranda');
 sayHello('Ferdinand');
+
+/*************************************************/
+
+const sayHelloToconsole = function (name) {
+  return 'Hello, ' + name;
+};
+
+const greeting = sayHelloToconsole('John');
+
+console.log(greeting);
